@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 242, 248);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.mission-2020 {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+}
+
+.mission-leftside {
+    width: 50%;
+    padding-left: 5%;
+}
+
+#mission-border {
+    font-weight: bold;
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(63, 130, 255), rgb(6, 7, 66));
+    border-image-slice: 1;
+    border-radius: 50%;
+}
+
+#mission-border span {
+    color: rgba(3, 3, 194, 0.87);
+}
+
+.mission-rightside {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.mission-rightside img {
+    width: 70%;
+}
+
+#my-mission-heading {
+    text-align: center;
+}
+
+#my-mission-heading span {
+    color: rgb(2, 2, 170);
+}
+
+.mission {
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    text-align: left;
+}
+
+.mission-catagory {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.my-mission img {
+    width: 50%;
+}
+
+.footer-style {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-header {
+    color: rgb(255, 255, 255);
+}
+
+.footer-header span {
+    color: rgb(221, 33, 174);
+}
