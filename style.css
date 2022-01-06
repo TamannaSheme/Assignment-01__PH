@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(234, 242, 248);
+    background-color: rgb(247, 249, 252);
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 h2 {
@@ -13,30 +13,52 @@ h2 {
 }
 
 .mission-2020 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
 }
 
 .mission-leftside {
+    margin-top: 100px;
     width: 50%;
-    padding-left: 5%;
+    padding-left: 12%;
 }
 
 #mission-border {
     font-weight: bold;
     border-left: 6px solid;
-    border-image: linear-gradient(rgb(63, 130, 255), rgb(6, 7, 66));
+    border-image: linear-gradient(rgb(219, 223, 18), rgb(129, 63, 2));
     border-image-slice: 1;
-    border-radius: 50%;
+    border-radius: 10%;
+    padding-right: 5px;
+}
+
+#mission-border {
+    letter-spacing: 2px;
+    font-size: 60px;
+    padding-left: 2px;
+    font-family: 'Oxygen', sans-serif;
 }
 
 #mission-border span {
-    color: rgba(3, 3, 194, 0.87);
+    color: rgba(202, 127, 29, 0.87);
+}
+
+.mission-leftside p {
+    margin-bottom: 25px;
+}
+
+.mission_leftside_btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(224, 146, 0), rgb(247, 87, 59));
+    color: white;
+    font-weight: 900px;
 }
 
 .mission-rightside {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 12%;
 }
 
 .mission-rightside img {
